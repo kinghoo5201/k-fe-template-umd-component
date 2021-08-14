@@ -1,0 +1,38 @@
+{
+  "name": "_IRIM_PROJECT_NAME_",
+  "version": "0.1.0",
+  "description": "_IRIM_DESCRIPTION_",
+  "repository": {
+    "type": "git",
+    "url": "_IRIM_GIT_"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "father build",
+    "dev": "dumi dev"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.172",
+    "dumi": "^1.1.25",
+    "father": "^2.30.8",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.3"
+  },
+  "author": {
+    "name": "_IRIM_AUTHOR_",
+    "email": "_IRIM_EMAIL_"
+  },
+  "maintainers": [
+    {
+      "name": "_IRIM_AUTHOR_",
+      "email": "_IRIM_EMAIL_"
+    }
+  ],
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "_IRIM_PROJECT_NAME_",
+    "React Component"
+  ]
+}
